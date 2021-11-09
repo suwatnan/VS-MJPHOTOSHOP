@@ -57,7 +57,8 @@
                                         }elseif($item->status == 4){
                                             echo "ชำระเงินไม่สำเร็จ";
                                         }else{
-                                            echo "1111";
+                                            echo "ไม่ทราบสถานะ";
+
                                         }
                                         ?></td>
 
