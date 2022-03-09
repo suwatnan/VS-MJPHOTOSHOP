@@ -112,6 +112,6 @@ class UsersController extends Controller
             'message' => 'update a password successfully', 
             'status' => 'true'));
     }*/
-    //test
+    
               
 }
