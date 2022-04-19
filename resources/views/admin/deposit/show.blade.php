@@ -29,8 +29,8 @@
                                     </tr>
                                     <tr><th> รหัสค่ามัดจำ </th><td> {{ $deposit->depositID }} </td></tr>
                                     <tr><th> ค่ามัดจำ </th><td> {{ $deposit->price }} </td></tr>
-                                    <tr><th> รูปใบเสร็จ </th><td> <img src="{{ url('/') }}/images/{{ $deposit->imagedeposit }}" width= '300px' height='300px'></td></tr>
-                                    <tr><th> รูปใบเสร็จค้างชำระ </th><td> <img src="{{ url('/') }}/images/{{ $deposit->imagedeposit2 }}" width= '300px' height='300px'></td></tr>
+                                    <tr><th> รูปใบเสร็จ </th><td> <img src="{{ url('/') }}/imageFileName/{{ $deposit->imagedeposit }}" width= '300px' height='300px'></td></tr>
+                                    <tr><th> รูปใบเสร็จค้างชำระ </th><td> <img src="{{ url('/') }}/imageFileName/{{ $deposit->imagedeposit2 }}" width= '300px' height='300px'></td></tr>
                                     <tr><th> ค้างชำระ </th><td> {{ $deposit->comment }} </td></tr>
                                 
                                 </tbody>

@@ -31,7 +31,7 @@
                                     <tr><th> รหัสรายละเอียดการอัดรูป </th><td> {{ $printphotodetail->printphotodetailID }} </td></tr>
                                     <tr><th> ชื่อ </th><td> {{ $printphotodetail->firstname }} </td></tr>
                                     <tr><th> นามสกุล </th><td> {{ $printphotodetail->lastname }} </td></tr>
-                                    <tr><th> รูปภาพ </th><td> <img src="{{ url('/') }}/images/{{ $printphotodetail->imageFileName }}" width= '300px' height='300px'></td></tr>
+                                    <tr><th> รูปภาพ </th><td> <img src="{{ url('/') }}/imageFileName/{{ $printphotodetail->imageFileName }}" width= '300px' height='300px'></td></tr>
                                     <tr><th> ขนาดรูป </th><td> {{ $printphotodetail->size }} </td></tr>
                                     <tr><th> ขอบรูป </th><td> {{ $printphotodetail->formatprint }} </td></tr>
                                     <tr><th> ชื่อสินค้า </th><td> {{ $printphotodetail->productname }} </td></tr>
@@ -39,7 +39,7 @@
                                     <tr><th> ชนิดกระดาษ </th><td> {{ $printphotodetail->papername }} </td></tr>
                                     <tr><th> รหัสการอัดรูป </th><td> {{ $printphotodetail->printphotoID }} </td></tr>
                                     <tr><th> ราคารวม </th><td> {{ $printphotodetail->totalprice }} </td></tr>
-                                    <tr><th> ใบเสร็จ </th><td> <img src="{{ url('/') }}/images/{{ $printphotodetail->imagebill }}" width= '300px' height='300px'></td></tr>
+                                    <tr><th> ใบเสร็จ </th><td> <img src="{{ url('/') }}/imageFileName/{{ $printphotodetail->imagebill }}" width= '300px' height='300px'></td></tr>
                                     <tr><th> สถานะ </th><td> <?php 
                                         if($printphotodetail->status == 0){
                                             echo "รอการชำระเงิน";

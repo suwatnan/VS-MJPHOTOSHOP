@@ -50,7 +50,7 @@
                                     <td>{{ $item->lastname }}</td>
                                    
                                     <td>
-                                        <img src="{{ url('/') }}/images/{{ $item->imageFileName }}" width='200px' height='200px' class="img-thumbnail">
+                                        <img src="{{ url('/') }}/imageFileName/{{ $item->imageFileName }}" width='200px' height='200px' class="img-thumbnail">
                                     </td>
                              
                                     <td>{{ $item->totalprice }}</td>

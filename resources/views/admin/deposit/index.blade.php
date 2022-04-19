@@ -38,7 +38,7 @@
                                     <tr>   
                                     <td>{{ $item->bookingID }}</td>
                                     <td>{{ $item->price }}</td>
-                                        <td><img src="{{ url('/') }}/images/{{ $item->imagedeposit }}" width='100px' height='100px' class="img-thumbnail"></td>
+                                        <td><img src="{{ url('/') }}/imageFileName/{{ $item->imagedeposit }}" width='100px' height='100px' class="img-thumbnail"></td>
                                         <td>{{ $item->comment }}</td>
                                         <td>
                     
